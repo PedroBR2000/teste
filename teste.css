@@ -69,7 +69,7 @@ transition: 0.5s;
 color: var(--cir);
 }
 
-.menu ul li:houver a .icone
+.menu ul li.active a .icone
 {
 transform:translateY(-35px);
 }
@@ -86,8 +86,20 @@ opacity: 0;
 transform: translateY(20px);
 }
 
-.menu ul li a .texto
+.menu ul li.active a .texto
 {
 opacity: 1;
 transform: translateY(10px);
+}
+
+.indicador
+{
+position: absolute;
+top: -50%;
+width: 70px;
+height: 70px;
+background: #29fd53;
+border-radius: 50%;
+border: 6px solid var(-cir);
+transition: 0.5s;
 }
