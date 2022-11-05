@@ -1,1 +1,47 @@
+*
+{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root
+{
+  --cir: #222327
+}
+
+body
+{
+  display: flex;
+  justify-content: center;
+  align-itens: center;
+  nin-heigt: 100vh;
+  background: var(--cir);
+}
+
+.menu
+{
+  width:400px;
+  height:70px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-itens:center;
+  border-radius:10px;
+}
+
+.menu ul 
+{
+  display: flex;
+  width: 350px;
+}
+
+.menu ul li
+{
+  position:relative;
+  list-style: none;
+  width: 70px;
+  height: 70px;
+  z-index: 1;
+}
