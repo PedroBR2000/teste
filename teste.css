@@ -45,3 +45,15 @@ body
   height: 70px;
   z-index: 1;
 }
+
+.menu ul li a
+{
+position: relative;
+display: flex;
+justify-content:center;
+align-itens:center;
+flex-direction: column;
+width: 100%;
+text-align: center;
+font-weight:500
+}
