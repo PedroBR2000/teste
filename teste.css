@@ -57,3 +57,37 @@ width: 100%;
 text-align: center;
 font-weight:500
 }
+
+.menu ul li a .icone
+{
+position: relative;
+display: block;
+line-height: 75px;
+font-size: 1.5em;
+text-align: center;
+transition: 0.5s;
+color: var(--cir);
+}
+
+.menu ul li:houver a .icone
+{
+transform:translateY(-35px);
+}
+
+.menu ul li a .texto
+{
+position: absolute;
+color: var(--cir);
+font-weight:400;
+fontsize: 0.75em;
+letter-spacing: 0.05em;
+transition: 0.5s;
+opacity: 0;
+transform: translateY(20px);
+}
+
+.menu ul li a .texto
+{
+opacity: 1;
+transform: translateY(10px);
+}
