@@ -21,13 +21,13 @@ body
 
 .menu
 {
+  justify-content:center;
+  align-itens:center;
   width:400px;
   height:70px;
   background: #fff;
   position: relative;
   display: flex;
-  justify-content:center;
-  align-itens:center;
   border-radius:10px;
 }
 
